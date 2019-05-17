@@ -309,27 +309,7 @@ public class LaunchNavigator extends CordovaPlugin {
         String destName = null;
         String dest;
 
-        if(dType.equals("name")){
-            destName = getLocationFromName(args, 2);
-            destLatLon = geocodeAddressToLatLon(args.getString(2), callbackContext);
-            if(destLatLon == null){
-                return;
-            }
-            logMsg += destName;
-            if(!isNull(destLatLon)){
-                logMsg += "["+destLatLon+"]";
-            }
-
-        }else{
-            destLatLon = getLocationFromPos(args, 2);
-            logMsg += "["+destLatLon+"]";
-        }
-
-        if(!isNull(destLatLon)){
-            dest = destLatLon;
-        }else{
-            dest = destName;
-        }
+        dest = params.getString("dest");
 
         String uri = GEO_URI+destLatLon+"?q="+dest;
         if(!isNull(dNickName)){

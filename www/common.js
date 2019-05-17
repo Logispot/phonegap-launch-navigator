@@ -32,12 +32,12 @@ var ln = {};
  * Internal properties
  *********************/
 
-var DEFAULT_appSelectionDialogHeaderText = "Select app for navigation",
-    DEFAULT_appSelectionCancelButtonText = "Cancel",
-    DEFAULT_rememberChoicePromptDialogHeaderText = "Remember your choice?",
-    DEFAULT_rememberChoicePromptDialogBodyText = "Use the same app for navigating next time?",
-    DEFAULT_rememberChoicePromptDialogYesButtonText = "Yes",
-    DEFAULT_rememberChoicePromptDialogNoButtonText = "No";
+var DEFAULT_appSelectionDialogHeaderText = "네비게이션 앱을 선택해주세요.",
+    DEFAULT_appSelectionCancelButtonText = "취소",
+    DEFAULT_rememberChoicePromptDialogHeaderText = "선택한 앱 기억하기",
+    DEFAULT_rememberChoicePromptDialogBodyText = "다음에 네비게이션 실행시 동일한 앱으로 진행하시겠습니까?",
+    DEFAULT_rememberChoicePromptDialogYesButtonText = "예",
+    DEFAULT_rememberChoicePromptDialogNoButtonText = "아니요";
 
 var store;
 
