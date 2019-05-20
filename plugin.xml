@@ -12,7 +12,7 @@
   <engines>
     <engine name="cordova" version=">=4.0.0" />
   </engines>
-  <repo>https://github.com/dpa99c/phonegap-launch-navigator.git</repo>
+  <repo>git+https://github.com/Logispot/phonegap-launch-navigator.git</repo>
   <issue>https://github.com/dpa99c/phonegap-launch-navigator/issues</issue>
 
   <license>MIT</license>
